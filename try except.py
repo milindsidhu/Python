@@ -8,9 +8,6 @@ hours_unit = "hours"
 seconds_unit = "seconds"
 minutes_unit = "minutes"
 
-num_of_days = input("enter the num of days to be converted into hours :\n ")
-
-
 # functions
 
 
@@ -74,3 +71,7 @@ def check_point():
 while True:
     num_of_days = input("enter the num of days to be converted into hours :\n ")
     check_point()
+
+# comment
+# num_of_days has to be defined inside while condition , if not it will ask for input once and run for the same value
+# infinite times
