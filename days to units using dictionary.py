@@ -25,7 +25,7 @@ def check_point():
 
 inputs = ""
 while inputs != "exit":
-    inputs = input("enter the num of days and the unit of conversion separated by ':'\n ")
+    inputs = input("enter the num of days and the unit of conversion 'hours or minutes' separated by ':'\n ")
     days_and_unit = inputs.split(":")
     print(days_and_unit)
     print(type(days_and_unit))
